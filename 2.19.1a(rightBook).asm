@@ -13,7 +13,7 @@ int sub (int a, int b){
 
 compare:
 
-    addi    $sp, $sp, -4            # $sp = $sp + -12
+    addi    $sp, $sp, -4            # $sp = $sp - 4
     sw      $ra, 0($sp)             # save $ra
     jal     sub                     # jump and link to label sub
     lw      $ra, 0($sp)             # recovery the $ra adress

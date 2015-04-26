@@ -6,5 +6,5 @@ assembly code? Use a minimal number of MIPS assembly instructions.
 
 sub f, g, f
 
-sub $t0, h, 2
+addi $t0, h, -2
 add f, i, $t0
